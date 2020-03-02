@@ -1,0 +1,368 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Sawarabi Gothic', sans-serif;
+}
+
+@media screen and (max-width: 1024px){
+
+}
+
+@media screen and (max-width: 896px){
+
+}
+
+@media screen and (max-width: 480px){
+    header img{
+        position:fixed;
+        width:20px;
+        top:10px;
+        right:10px;
+        z-index:4;
+    }
+
+    .topimg{
+        width:100%;
+        height:260px;
+        object-fit:cover;
+    }
+
+    .contents{
+        position:relative;
+        width:100%;
+        overflow:hidden;
+        margin:0;
+    }
+
+    .midashi{
+        font-size:24px;
+        color:#000;
+        text-align:center;
+        width:90%;
+        margin:0 auto;
+        padding:5px 0 10px;
+        border-bottom:1px solid #001F76;
+    }
+
+    .tags{
+        width:100%;
+        overflow:hidden;
+        margin-top:15px;
+        margin-left:20px;
+        margin-bottom:10px;
+    }
+
+    .tag{
+        height:18px;
+        color:#fff;
+        border-radius:5px;
+        overflow:hidden;
+        position:relative;
+        display:inline-block;
+        background-color:#001F76;
+    }
+
+    .tag1{
+        width:65px;
+    }
+
+    .tag2{
+        width:55px;
+    }
+
+    .tag .tagmaru{
+        background-color:#fff;
+        display:inline-block;
+        width:7px;
+        height:7px;
+        border-radius:50%;
+        position:absolute;
+        top:5.5px;
+        left:5.5px;
+    }
+
+    .tag p{
+        position:absolute;
+        left:18px;
+        top:2px;
+        font-size:10px;
+    }
+
+    .kihon_info{
+        width:100%;
+        overflow:hidden;
+        background-color:#EEF0F2;
+    }
+
+    .kihon_info p{
+        text-align:center;
+        font-size:18px;
+        margin:30px auto ;
+        width:85px;
+        background: linear-gradient(transparent 70%, #feff00 30%);
+    }
+
+    .contents table{
+        display:table;
+        width:90%;
+        margin:0 auto 50px;
+        font-size:14px;
+    }
+
+    .contents table tr{
+        height:45px;
+    }
+
+    .contents table td{
+        width:50%;
+    }
+
+    .colorcell{
+        background-color:#001f76;
+        color:#fff;
+    }
+
+    #cells{
+        display:flex;
+        margin:30px 0 40px;
+    }
+
+    .cell{
+        width:25%;
+        display:flex;
+        justify-content: center;
+        align-items:center;
+        text-align:center;
+    }
+
+    .cell p{
+        color:#000;
+        background:linear-gradient(transparent 60%,#eef0f2 40%);
+        font-size:18px;
+    }
+
+    .cell1 p{
+        width:50px;
+        background:linear-gradient(transparent 60%,#feff00 40%);
+    }
+
+    .cell2 p{
+        width:65px;
+    }
+
+    .cell3 p{
+        width:75px;
+    }
+
+    .cell4 p{
+        width:50px;
+    }
+
+    .article{
+        display:none;
+        width:100%;
+        overflow:hidden;
+    }
+
+    .article1{
+        display:block;
+    }
+
+    .article1 table{
+        font-size:10px;
+        width:90%;
+        margin:0 auto 40px;
+    }
+
+    .article1 table tr{
+        text-align: center;
+        height:35px;
+    }
+
+    .article1 table .colorcell_2{
+        background:#eef0f2;
+    }
+
+    .article2{
+        text-align:center;
+        background:#000;
+        position:relative;
+    }
+
+    .article2 #gray{
+        position:absolute;
+        background-color:#808080;
+        width:100%;
+        height:1490px;
+        opacity:0.47;
+        z-index:2;
+    }
+
+    .article2 .nomi{
+        background:url(/assets/images//nomi.jpg);
+        background-repeat:none;
+        background-size:cover;
+        height:290px;
+    }
+
+    .article2 .couple{
+        background:url(/assets/images/couple.jpg);
+        background-repeat:none;
+        background-size:cover;
+        height:290px;
+    }
+
+    .article2 .study{
+        background:url(/assets/images/study.jpg);
+        background-repeat:none;
+        background-size:cover;
+        height:410px;
+    }
+
+    .article2 .syusyoku{
+        background:url(/assets/images/syukatu.JPG);
+        background-repeat:none;
+        background-size:cover;
+        height:220px;
+    }
+
+    .article2 .sugoi{
+        background:url(/assets/images/sugoi.jpg);
+        background-repeat:none;
+        background-size:cover;
+        height:280px;
+    }
+
+    .article2 .koumoku{
+        display:flex;
+        justify-content: center;
+        align-items:center;
+    }
+
+    .article2 p{
+        color:#fff;
+        font-size:18px;
+        padding:20px;
+        position:relative;
+        z-index:3;
+    }
+
+    .article2 .maru{
+        height:35px;
+        width:35px;
+        border-radius:50%;
+        color:#001f76;
+        background:#fff;
+        display:flex;
+        justify-content: center;
+        align-items:center;
+        font-size:18px;
+        margin:5px 5px;
+        opacity:0.8;
+        position:relative;
+        z-index:3;
+    }
+
+    .article2 .syusyoku .maru{
+        font-size:14px;
+    }
+
+    .article2 .big{
+        height:50px;
+        width:50px;
+        font-size:24px;
+        opacity:1;
+    }
+
+    .article2 .sub{
+        width:90%;
+        margin:0 auto;
+        padding:0;
+        font-size:12px;
+    }
+
+    .article2 .sub1{
+        padding:15px;
+    }
+
+    .article3 .uls{
+        width:98%;
+        display:table;
+        margin:0 auto;
+    }
+
+    .article3 ul{
+        display: flex;
+        flex-wrap: wrap;
+        list-style-type: none;
+    }
+
+    .article3 li{
+        position: relative;
+        width: calc(98.2% / 3);
+        margin:0.3%;
+    }
+
+    .article3 li:before{
+        content: "";
+        display: block;
+        padding-top: 100%;
+    }
+
+    .article3 img{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        margin: auto;
+        object-fit: cover;
+    }
+
+    .a4_midashi{
+        font-size:18px;
+        color:#001F76;
+        padding:10px 0;
+        text-align:center;
+    }
+
+    .article4 .news{
+        width:85%;
+        height:140px;
+        display:flex;
+        justify-content:space-around;
+        align-items: center;
+        margin:30px auto;
+        background:#eef0f2;
+        padding:0 5px;
+    }
+
+    .article4 img{
+        width:30%;
+        height:120px;
+        object-fit:cover;
+    }
+
+    .article4 .bunsyou{
+        width:60%;
+        height:120px;
+    }
+
+    .a4_title{
+        font-size:18px;
+    }
+
+    .a4_date{
+        font-size:12px;
+        width:100%;
+        padding:2px 0;
+        border-bottom:1px solid #001f76;
+    }
+
+    .a4_kiji{
+        font-size:10px;
+        padding-top:10px;
+    }
+}

@@ -1,0 +1,124 @@
+
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Sawarabi Gothic', sans-serif;
+}
+
+@media screen and (max-width: 1024px){
+
+}
+
+@media screen and (max-width: 896px){
+
+}
+
+@media screen and (max-width: 480px){
+     header img{
+        position:fixed;
+        width:20px;
+        top:10px;
+        right:10px;
+         z-index:3;
+    }
+
+    body{
+        height:100%;
+        width:100%;
+    }
+
+    #square{
+        width:100%;
+        height:100%;
+        position:fixed;
+    }
+
+    .container{
+        width:100%;
+        overflow:hidden;
+        background-color:#eef0f2;
+    }
+
+    .content{
+        width:80%;
+        overflow:hidden;
+        background:#fff;
+        margin:36px auto;
+        box-shadow:1px 1px 5px 1px  #bebebe;
+        position:relative;
+        z-index:3;
+    }
+
+    .content img{
+        width:95%;
+        height:220px;
+        object-fit:cover;
+        display:block;
+        margin:0 auto;
+        padding-top:5px;
+    }
+
+    .content h2{
+        font-size:24px;
+        color:#000;
+        text-align:center;
+        width:90%;
+        margin:0 auto;
+        border-bottom:1px solid #001F76;
+        padding:5px 0;
+    }
+
+    .tags{
+        width:90%;
+        height:18px;
+        margin:10px auto;
+    }
+
+    .tag{
+        height:18px;
+        color:#fff;
+        border-radius:5px;
+        overflow:hidden;
+        position:relative;
+        display:inline-block;
+        background-color:#001F76;
+    }
+
+    .tag1{
+        width:65px;
+    }
+
+    .tag2{
+        width:55px;
+    }
+
+    .tag .tagmaru{
+        background-color:#fff;
+        display:inline-block;
+        width:7px;
+        height:7px;
+        border-radius:50%;
+        position:absolute;
+        top:5.5px;
+        left:5.5px;
+    }
+
+    .tag p{
+        position:absolute;
+        left:18px;
+        top:2px;
+        font-size:10px;
+    }
+
+    .hitokoto{
+        font-size:14px;
+        color:#000;
+        width:90%;
+        margin:0 auto;
+        padding-bottom:15px;
+    }
+}
+
+a{
+    text-decoration: none;
+}
