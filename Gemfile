@@ -11,6 +11,6 @@ gem 'sinatra'
 gem 'sinatra-contrib'
 
 gem 'sinatra-activerecord'
-gem 'activerecord', '5.2.3'
+gem 'activerecord', '6.1.7.1'
 gem 'sqlite3', '1.4.1'
 gem 'rake'
